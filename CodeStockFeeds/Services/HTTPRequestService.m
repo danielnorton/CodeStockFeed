@@ -187,7 +187,6 @@
 	}
 	
 	NSURLConnection *aConnection = [[NSURLConnection alloc] initWithRequest:request delegate:self];
-	[request release];
 	
 	if (aConnection) {
 		

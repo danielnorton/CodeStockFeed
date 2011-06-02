@@ -239,8 +239,6 @@
 				   method:HTTPRequestServiceMethodGet
 				   params:[NSDictionary dictionary]
 		   withReturnType:HTTPRequestServiceReturnTypeJson];
-	
-	[service release];	
 }
 
 - (void)performFetch {
