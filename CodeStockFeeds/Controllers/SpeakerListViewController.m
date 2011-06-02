@@ -26,6 +26,7 @@
 	
 	NSFetchedResultsController *controller = [self.repo controllerForAll];
 	[self setFetchedResultsController:controller];
+	[controller autorelease];
 	
 	[self setRemoteServicePath:@"http://codestock.org/api/v2.0.svc/AllSpeakersJson"];
 	
