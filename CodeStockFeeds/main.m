@@ -3,7 +3,7 @@
 //  CodeStockFeeds
 //
 //  Created by Daniel Norton on 6/1/11.
-//  Copyright 2011 Firefly Logic. All rights reserved.
+//  Copyright 2011 Daniel Norton. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
