@@ -26,7 +26,6 @@
 		9B61AAD713974626006D352B /* NSDictionary+join.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B61AAD413974626006D352B /* NSDictionary+join.m */; };
 		9B61AAD813974626006D352B /* UIApplication+delegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B61AAD613974626006D352B /* UIApplication+delegate.m */; };
 		9B61AADC139748BA006D352B /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B61AADB139748BA006D352B /* Reachability.m */; };
-		9B61AADE1397493D006D352B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B61AADD1397493D006D352B /* SystemConfiguration.framework */; };
 		9B61AAE113974D4E006D352B /* FeedViewControllerBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B61AAE013974D4E006D352B /* FeedViewControllerBase.m */; };
 		9B61AAEA13974E61006D352B /* CodeStockFeeds.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 9B61AAE313974E61006D352B /* CodeStockFeeds.xcdatamodel */; };
 		9B61AAEB13974E61006D352B /* ModelCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B61AAE613974E61006D352B /* ModelCore.m */; };
@@ -34,7 +33,6 @@
 		9B61AAEF139750C6006D352B /* Session.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B61AAEE139750C6006D352B /* Session.m */; };
 		9B61AAF313975123006D352B /* SessionRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B61AAF213975123006D352B /* SessionRepository.m */; };
 		9B61AAF613975416006D352B /* SessionListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B61AAF513975416006D352B /* SessionListViewController.m */; };
-		9B61AAF813975487006D352B /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B61AAF713975487006D352B /* CoreData.framework */; };
 		9B61AB0313976351006D352B /* UIViewController+popup.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B61AB0213976351006D352B /* UIViewController+popup.m */; };
 		9B61AB0613976C85006D352B /* SpeakerListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B61AB0513976C84006D352B /* SpeakerListViewController.m */; };
 		9B61AB0913976D01006D352B /* SpeakerRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B61AB0813976D01006D352B /* SpeakerRepository.m */; };
@@ -78,7 +76,6 @@
 		9B61AAD613974626006D352B /* UIApplication+delegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = "UIApplication+delegate.m"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		9B61AADA139748BA006D352B /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		9B61AADB139748BA006D352B /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
-		9B61AADD1397493D006D352B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		9B61AADF13974D4E006D352B /* FeedViewControllerBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedViewControllerBase.h; sourceTree = "<group>"; };
 		9B61AAE013974D4E006D352B /* FeedViewControllerBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedViewControllerBase.m; sourceTree = "<group>"; };
 		9B61AAE313974E61006D352B /* CodeStockFeeds.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CodeStockFeeds.xcdatamodel; sourceTree = "<group>"; };
@@ -93,7 +90,6 @@
 		9B61AAF213975123006D352B /* SessionRepository.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SessionRepository.m; sourceTree = "<group>"; };
 		9B61AAF413975416006D352B /* SessionListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SessionListViewController.h; sourceTree = "<group>"; };
 		9B61AAF513975416006D352B /* SessionListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SessionListViewController.m; sourceTree = "<group>"; };
-		9B61AAF713975487006D352B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		9B61AB0113976351006D352B /* UIViewController+popup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+popup.h"; sourceTree = "<group>"; };
 		9B61AB0213976351006D352B /* UIViewController+popup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+popup.m"; sourceTree = "<group>"; };
 		9B61AB0413976C84006D352B /* SpeakerListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeakerListViewController.h; sourceTree = "<group>"; };
@@ -109,8 +105,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B61AAF813975487006D352B /* CoreData.framework in Frameworks */,
-				9B61AADE1397493D006D352B /* SystemConfiguration.framework in Frameworks */,
 				9B280BF6139739AC00287BCD /* UIKit.framework in Frameworks */,
 				9B280BF8139739AC00287BCD /* Foundation.framework in Frameworks */,
 				9B280BFA139739AC00287BCD /* CoreGraphics.framework in Frameworks */,
@@ -140,8 +134,6 @@
 		9B280BF4139739AC00287BCD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9B61AAF713975487006D352B /* CoreData.framework */,
-				9B61AADD1397493D006D352B /* SystemConfiguration.framework */,
 				9B280BF5139739AC00287BCD /* UIKit.framework */,
 				9B280BF7139739AC00287BCD /* Foundation.framework */,
 				9B280BF9139739AC00287BCD /* CoreGraphics.framework */,
