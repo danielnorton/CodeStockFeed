@@ -38,6 +38,8 @@
 	
 	Speaker *speaker = (Speaker *)[self.fetchedResultsController objectAtIndexPath:indexPath];
 	[cell.textLabel setText:speaker.name];
+
+	[NSThread sleepForTimeInterval:0.1f];
 }
 
 - (void)loadModelFromJson:(NSArray *)json {
