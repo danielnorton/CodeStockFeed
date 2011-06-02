@@ -56,30 +56,6 @@
 }
 
 
-
-#pragma mark UITabBarControllerDelegate
-- (void)tabBarController:(UITabBarController *)aTabBarController didSelectViewController:(UIViewController *)viewController {
-
-	UIColor *color = nil;
-	switch (aTabBarController.selectedIndex) {
-			
-		case 0:
-			color = [UIColor orangeColor];
-			break;
-			
-		case 1:
-			color = [UIColor greenColor];
-			break;			
-			
-		default:
-			color = [UIColor groupTableViewBackgroundColor];
-			break;
-	}
-	
-	[viewController.view setBackgroundColor:color];
-}
-
-
 #pragma mark -
 #pragma mark CodeStockFeedsAppDelegate
 #pragma mark Public Messages
