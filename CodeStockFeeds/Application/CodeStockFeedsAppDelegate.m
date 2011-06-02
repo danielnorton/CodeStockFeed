@@ -77,7 +77,6 @@
 	}
 	
 	[viewController.view setBackgroundColor:color];
-	[viewController release];
 }
 
 
