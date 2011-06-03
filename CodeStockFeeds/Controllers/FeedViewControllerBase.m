@@ -147,7 +147,7 @@
 #pragma mark HTTPRequestServiceDelegate
 - (void)httpRequestServiceDidFinish:(HTTPRequestService *)sender {
 	
-	NSArray *items = [[sender.json objectAtIndex:0] objectForKey:@"d"];
+	NSArray *items = [sender.json objectAtIndex:0];
 	[self loadModelFromJson:items];
 	
 	NSError *error = nil;
